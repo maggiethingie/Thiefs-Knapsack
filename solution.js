@@ -104,3 +104,21 @@ items = [
 ];
 
 console.log(thiefsKnapsack2(10, items), 'should be 37');
+
+items = [
+  { val: 13, weight: 4 },
+  { val: 1, weight: 4 },
+  { val: 12, weight: 3 },
+  { val: 23, weight: 1 }
+];
+
+console.log(thiefsKnapsack2(10, items), 'should be 48');
+
+items = [
+  { val: 10, weight: 1 },
+  { val: 3, weight: 8 },
+  { val: 2, weight: 9 },
+  { val: 1, weight: 6 }
+];
+
+console.log(thiefsKnapsack2(10, items), 'should be 13');
